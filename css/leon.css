@@ -20,6 +20,30 @@ html
 body{
     font-family: 'Work Sans', sans-serif;
 }
+.go_top
+{
+    position: absolute;
+    top: 566px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: #333;
+    display: none;
+    position: fixed;
+}
+.go_top:hover
+{
+    cursor: pointer;
+}
+.go_top i
+{
+    left: 15px;
+    position: absolute;
+    top: 14px;
+    color: var(--main-color);
+}
 .container
 {
     
@@ -197,6 +221,7 @@ body{
     background-size: cover;
     height: calc(100vh - 24px);
     position: relative;
+    opacity: 0;
 }
 
 
@@ -235,6 +260,7 @@ body{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     background-color: var(--section-background);
+    opacity: 0;
 }
 
 .features .container
@@ -274,6 +300,7 @@ body{
 {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    opacity: 0;
 }
 
 .services .services_content
@@ -361,6 +388,7 @@ body{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     background-color: var(--section-background);
+    opacity: 0;
 }
 
 .portfolio .portfolio_content
@@ -405,6 +433,7 @@ body{
 .about{
     padding-top: var(--section-padding);
     padding-bottom:calc(var(--section-padding) + 60px);
+    opacity: 0;
 }
 
 .about .about_content
@@ -504,6 +533,7 @@ body{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     background-color: var(--section-background);
+    opacity: 0;
 }
 
 .contact .info{
